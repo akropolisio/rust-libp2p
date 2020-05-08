@@ -25,8 +25,7 @@ futures = { version = "0.1", features = ["use_std"] }
 parking_lot = "0.7"
 protobuf = "2.3"
 quick-error = "1.2"
-rand = "0.7.3"
-rand_core = "0.5.1"
+rand = {version = "0.7.3", git = "https://github.com/akropolisio/rand"}
 rw-stream-sink = { version = "0.1.1", path = "../misc/rw-stream-sink" }
 secp256k1 = { version = "0.12", features = ["rand"], optional = true }
 sha2 = "0.8.0"
@@ -48,7 +47,7 @@ libp2p-ping = { version = "0.7.0", path = "../protocols/ping" }
 libp2p-tcp = { version = "0.7.0", path = "../transports/tcp" }
 libp2p-mplex = { version = "0.7.0", path = "../muxers/mplex" }
 libp2p-secio = { version = "0.7.0", path = "../protocols/secio" }
-rand = "0.6"
+rand = {version = "0.7.3", git = "https://github.com/akropolisio/rand"}
 quickcheck = "0.8"
 tokio = "0.1"
 tokio-codec = "0.1"
