@@ -26,6 +26,7 @@ parking_lot = "0.7"
 protobuf = "2.3"
 quick-error = "1.2"
 rand = "0.7.3"
+rand_core = "0.5.1"
 rw-stream-sink = { version = "0.1.1", path = "../misc/rw-stream-sink" }
 secp256k1 = { version = "0.12", features = ["rand"], optional = true }
 sha2 = "0.8.0"
